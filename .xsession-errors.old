@@ -1,0 +1,33 @@
+openConnection: connect: 没有那个文件或目录
+cannot connect to brltty at :0
+upstart: upstart-event-bridge main 进程 (8174)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8182)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8187)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8196)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8217)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8226)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8233)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8239)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8242)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8247)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (8253)以状态 1 结束
+upstart: upstart-event-bridge 重新建立过快，停止
+upstart: indicator-bluetooth main 进程 (8334)已经被TERM 信号杀死
+upstart: indicator-power main 进程 (8335)已经被TERM 信号杀死
+upstart: indicator-datetime main 进程 (8336)已经被TERM 信号杀死
+upstart: indicator-printers main 进程 (8339)已经被TERM 信号杀死
+upstart: indicator-session main 进程 (8340)已经被TERM 信号杀死
+upstart: hud main 进程 (8267)已经被TERM 信号杀死
+upstart: indicator-application main 进程 (8341)以状态 1 结束
+upstart: Disconnected from notified D-Bus bus
+upstart: job unity7 failed to stop

@@ -1,0 +1,91 @@
+status: 200
+content-length: 2811
+expires: Wed, 23 Mar 2016 06:44:22 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/zh_CN/any/any/any/pcmanfm/page/1/helpful/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept
+server: gunicorn/19.3.0
+last-modified: Wed, 23 Mar 2016 06:39:22 GMT
+x-bzr-revision-number: 313
+cache-control: max-age=300
+date: Wed, 23 Mar 2016 06:39:22 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "Desktop Preferences", 
+        "language": "zh_CN", 
+        "reviewer_username": "X3XM3Tz", 
+        "usefulness_total": 4, 
+        "usefulness_favorable": 3, 
+        "review_text": "不会用啊，桌面管理器未激活", 
+        "date_deleted": null, 
+        "summary": "桌面管理器未激活", 
+        "version": "1.2.3-0ubuntu1", 
+        "id": 92318, 
+        "date_created": "2014-11-22 15:15:25", 
+        "reviewer_displayname": "我女儿好萌", 
+        "package_name": "pcmanfm", 
+        "distroseries": "utopic"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Desktop Preferences", 
+        "language": "zh_CN", 
+        "reviewer_username": "l007-3000", 
+        "usefulness_total": 2, 
+        "usefulness_favorable": 2, 
+        "review_text": "有图有真相，和windows资源管理器一样的:\n\nhttp://ubuntuone.com/5oR7xfyRAznfdGvLd2Ndzd", 
+        "date_deleted": null, 
+        "summary": "有图有真相，和windows资源管理器一样的", 
+        "version": "1.1.2-0ubuntu1", 
+        "id": 84410, 
+        "date_created": "2014-02-16 22:02:34", 
+        "reviewer_displayname": "linubuntunix", 
+        "package_name": "pcmanfm", 
+        "distroseries": "saucy"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "File Manager PCManFM", 
+        "language": "zh_CN", 
+        "reviewer_username": "fuhaoyun", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "确实比nautilus好用得多，以前的nautilus还行，现在越做越烂，PCManFM是最好的替代品", 
+        "date_deleted": null, 
+        "summary": "Ubuntu最好的文件管理器", 
+        "version": "1.1.0-0ubuntu2", 
+        "id": 73978, 
+        "date_created": "2013-06-09 13:08:56", 
+        "reviewer_displayname": "fuhaoyun", 
+        "package_name": "pcmanfm", 
+        "distroseries": "raring"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "File Manager", 
+        "language": "zh_CN", 
+        "reviewer_username": "M7hnNWm", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Much faster than Nautilus, the new version for now is 1.1.0. Strongly suggest to use pcmanfm instead of Nautilus.", 
+        "date_deleted": null, 
+        "summary": "Much faster than Nautilus", 
+        "version": "0.9.10-0ubuntu2", 
+        "id": 61059, 
+        "date_created": "2012-11-14 03:21:49", 
+        "reviewer_displayname": "JeffreyChen", 
+        "package_name": "pcmanfm", 
+        "distroseries": "precise"
+    }
+]

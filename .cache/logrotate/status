@@ -1,0 +1,17 @@
+logrotate state -- version 2
+"/home/xywang/.cache/upstart/indicator-session.log" 2016-3-23-14:0:0
+"/home/xywang/.cache/upstart/ssh-agent.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/gnome-keyring-ssh.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/unity-settings-daemon.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/window-stack-bridge.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/gpg-agent.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/upstart-event-bridge.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/unity7.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/indicator-keyboard.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/hud.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/indicator-sound.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/update-notifier-release.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/im-config.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/dbus.log" 2016-3-23-14:36:31
+"/home/xywang/.cache/upstart/at-spi2-registryd.log" 2016-3-23-12:38:57
+"/home/xywang/.cache/upstart/unity-panel-service.log" 2016-3-23-14:36:31

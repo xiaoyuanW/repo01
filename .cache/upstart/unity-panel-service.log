@@ -1,0 +1,59 @@
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:26190): GLib-CRITICAL **: Source ID 357 was not found when attempting to remove it
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:26190): Indicator-Appmenu-WARNING **: Already have a menu for window ID 54526175 with path /com/canonical/menu/34000DF from :1.119, unregistering that one
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch property `_GTK_UNIQUE_BUS_NAME': GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.view 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch type: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch monitor: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch maximized state: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch property `_GTK_UNIQUE_BUS_NAME': GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+** (unity-panel-service:26190): WARNING **: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:26190): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:26190): GLib-CRITICAL **: Source ID 1212 was not found when attempting to remove it
+
+(unity-panel-service:26190): GLib-CRITICAL **: Source ID 3035 was not found when attempting to remove it
+
+(unity-panel-service:26190): Indicator-Appmenu-WARNING **: Already have a menu for window ID 54623381 with path /com/canonical/menu/3417C95 from :1.119, unregistering that one
+
+(unity-panel-service:26190): GLib-CRITICAL **: Source ID 3048 was not found when attempting to remove it
+
+(unity-panel-service:26190): GLib-CRITICAL **: Source ID 3851 was not found when attempting to remove it

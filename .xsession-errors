@@ -1,0 +1,24 @@
+openConnection: connect: 没有那个文件或目录
+cannot connect to brltty at :0
+upstart: upstart-event-bridge main 进程 (26109)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26124)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26135)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26137)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26140)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26142)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26143)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26147)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26148)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26153)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (26156)以状态 1 结束
+upstart: upstart-event-bridge 重新建立过快，停止

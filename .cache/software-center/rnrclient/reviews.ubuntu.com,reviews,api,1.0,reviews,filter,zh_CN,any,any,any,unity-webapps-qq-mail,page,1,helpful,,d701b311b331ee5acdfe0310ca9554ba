@@ -1,0 +1,53 @@
+status: 200
+content-length: 1317
+expires: Wed, 23 Mar 2016 04:48:43 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/zh_CN/any/any/any/unity-webapps-qq-mail/page/1/helpful/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept
+server: gunicorn/19.3.0
+last-modified: Wed, 23 Mar 2016 04:43:43 GMT
+x-bzr-revision-number: 313
+cache-control: max-age=300
+date: Wed, 23 Mar 2016 04:43:43 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 2, 
+        "hide": false, 
+        "app_name": "", 
+        "language": "zh_CN", 
+        "reviewer_username": "zWcQsbR", 
+        "usefulness_total": 2, 
+        "usefulness_favorable": 2, 
+        "review_text": "我需要的不是qq mail  希望有更多的中文web app", 
+        "date_deleted": null, 
+        "summary": "安装了之后怎么找不到？", 
+        "version": "2.2", 
+        "id": 59369, 
+        "date_created": "2012-10-19 08:30:27", 
+        "reviewer_displayname": "tianyuan", 
+        "package_name": "unity-webapps-qq-mail", 
+        "distroseries": "quantal"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "", 
+        "language": "zh_CN", 
+        "reviewer_username": "fuhaoyun", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "去和马化腾合作，推个QQ原生版。在此之前，先把web.qq.com做成webapps吧", 
+        "date_deleted": null, 
+        "summary": "web.qq.com", 
+        "version": "2.2", 
+        "id": 71610, 
+        "date_created": "2013-05-03 14:34:50", 
+        "reviewer_displayname": "fuhaoyun", 
+        "package_name": "unity-webapps-qq-mail", 
+        "distroseries": "raring"
+    }
+]

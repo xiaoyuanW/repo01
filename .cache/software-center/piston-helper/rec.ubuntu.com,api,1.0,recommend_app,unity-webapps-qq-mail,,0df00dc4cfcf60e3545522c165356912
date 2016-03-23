@@ -1,0 +1,20 @@
+status: 200
+content-length: 103
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/unity-webapps-qq-mail/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Wed, 23 Mar 2016 04:48:44 GMT
+server: Apache
+last-modified: Wed, 23 Mar 2016 04:43:44 GMT
+etag: "e4ec8c70a5d5692826e68c5433238667"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 23 Mar 2016 04:43:44 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "40e8d95b9d0196399d4c732c4a7f95bf", 
+    "data": [], 
+    "app": "unity-webapps-qq-mail"
+}

@@ -1,0 +1,291 @@
+status: 200
+content-length: 6511
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/pcmanfm/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Wed, 23 Mar 2016 06:44:22 GMT
+server: Apache
+last-modified: Wed, 23 Mar 2016 06:39:22 GMT
+etag: "1feb276c462eb25dfd297ba8cf829ee5"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 23 Mar 2016 06:39:22 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "236d141a4f76c6636893f5b93655f1a4", 
+    "data": [
+        {
+            "package_name": "libfm-gtk-bin", 
+            "similarity": 1.4395
+        }, 
+        {
+            "package_name": "openbox", 
+            "similarity": 0.532
+        }, 
+        {
+            "package_name": "obconf", 
+            "similarity": 0.5286
+        }, 
+        {
+            "package_name": "lxinput", 
+            "similarity": 0.4715
+        }, 
+        {
+            "package_name": "galculator", 
+            "similarity": 0.4447
+        }, 
+        {
+            "package_name": "gpicview", 
+            "similarity": 0.4174
+        }, 
+        {
+            "package_name": "leafpad", 
+            "similarity": 0.2753
+        }, 
+        {
+            "package_name": "lxde", 
+            "similarity": 0.242
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "lxtask", 
+            "similarity": 0.2068
+        }, 
+        {
+            "package_name": "mtpaint", 
+            "similarity": 0.1698
+        }, 
+        {
+            "package_name": "sylpheed", 
+            "similarity": 0.1555
+        }, 
+        {
+            "package_name": "xpad", 
+            "similarity": 0.1553
+        }, 
+        {
+            "package_name": "guvcview", 
+            "similarity": 0.1529
+        }, 
+        {
+            "package_name": "xfburn", 
+            "similarity": 0.1501
+        }, 
+        {
+            "package_name": "gnumeric", 
+            "similarity": 0.1499
+        }, 
+        {
+            "package_name": "gnome-mplayer", 
+            "similarity": 0.1484
+        }, 
+        {
+            "package_name": "ace-of-penguins", 
+            "similarity": 0.1482
+        }, 
+        {
+            "package_name": "gnome-time-admin", 
+            "similarity": 0.1445
+        }, 
+        {
+            "package_name": "hardinfo", 
+            "similarity": 0.1442
+        }, 
+        {
+            "package_name": "abiword", 
+            "similarity": 0.1433
+        }, 
+        {
+            "package_name": "exo-utils", 
+            "similarity": 0.1417
+        }, 
+        {
+            "package_name": "blueman", 
+            "similarity": 0.1397
+        }, 
+        {
+            "package_name": "audacious", 
+            "similarity": 0.1375
+        }, 
+        {
+            "package_name": "gdebi", 
+            "similarity": 0.1257
+        }, 
+        {
+            "package_name": "osmo", 
+            "similarity": 0.1194
+        }, 
+        {
+            "package_name": "systemsettings", 
+            "similarity": 0.1192
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "thunar", 
+            "similarity": 0.1168
+        }, 
+        {
+            "package_name": "dolphin", 
+            "similarity": 0.1163
+        }, 
+        {
+            "package_name": "k3b", 
+            "similarity": 0.1112
+        }, 
+        {
+            "package_name": "catfish", 
+            "similarity": 0.1104
+        }, 
+        {
+            "package_name": "gwenview", 
+            "similarity": 0.1094
+        }, 
+        {
+            "package_name": "kdepim-runtime", 
+            "similarity": 0.1088
+        }, 
+        {
+            "package_name": "ksysguard", 
+            "similarity": 0.1079
+        }, 
+        {
+            "package_name": "ark", 
+            "similarity": 0.1072
+        }, 
+        {
+            "package_name": "gnome-system-tools", 
+            "similarity": 0.1054
+        }, 
+        {
+            "package_name": "pidgin", 
+            "similarity": 0.1044
+        }, 
+        {
+            "package_name": "orage", 
+            "similarity": 0.102
+        }, 
+        {
+            "package_name": "gnome-panel", 
+            "similarity": 0.1005
+        }, 
+        {
+            "package_name": "gnome-session-fallback", 
+            "similarity": 0.0999
+        }, 
+        {
+            "package_name": "okular", 
+            "similarity": 0.0994
+        }, 
+        {
+            "package_name": "korganizer", 
+            "similarity": 0.0971
+        }, 
+        {
+            "package_name": "xfdesktop4", 
+            "similarity": 0.0971
+        }, 
+        {
+            "package_name": "kmix", 
+            "similarity": 0.0969
+        }, 
+        {
+            "package_name": "kate", 
+            "similarity": 0.0956
+        }, 
+        {
+            "package_name": "knotes", 
+            "similarity": 0.0948
+        }, 
+        {
+            "package_name": "kmail", 
+            "similarity": 0.0947
+        }, 
+        {
+            "package_name": "imagemagick", 
+            "similarity": 0.0946
+        }, 
+        {
+            "package_name": "pavucontrol", 
+            "similarity": 0.0946
+        }, 
+        {
+            "package_name": "kcalc", 
+            "similarity": 0.0944
+        }, 
+        {
+            "package_name": "ksnapshot", 
+            "similarity": 0.0943
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "shutter"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "transmission-gtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "testdisk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "mgm"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "notification-daemon"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "phoronix-test-suite"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "tint2"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "volumecontrol.app"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gisomount"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kruler"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gtk-vector-screenshot"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "qprogram-starter"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "synaptic"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "passage"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "mc"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "htop"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "deluge"
+        }
+    ], 
+    "app": "pcmanfm"
+}

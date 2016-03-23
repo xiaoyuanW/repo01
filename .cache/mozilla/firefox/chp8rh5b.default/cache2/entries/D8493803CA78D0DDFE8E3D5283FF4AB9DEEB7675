@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>初涉Linux ----------&gt; Ubuntu15.04的安装与美化_Linux教程_www.knowsky.com</title>
+<meta name="keywords" content="初涉Linux ----------&gt; Ubuntu15.04的安装与美化,学习初涉Linux ----------&gt; Ubuntu15.04的安装与美化,Linux教程,网络学院,电脑技术">
+<meta name="description" content="阅读初涉Linux ----------&gt; Ubuntu15.04的安装与美化,初涉linux ----------&gt; Ubuntu15.04的安装与美化　　&ldquo;你玩 Linux 吗？&rdquo;　　&ldquo;什么 Linux ？&rdquo;　　&ldquo;你连 Linux 都不知道？还说是...">
+<link rel="stylesheet" type="text/css" href="css.css" />
+<script type="text/javascript" src="images/js/jquery.js"></script>
+<script type="text/javascript">
+	var jq=jQuery.noConflict();
+</script>
+<script type="text/javascript" src="images/js/jquery.SuperSlide.js"></script>
+</head>
+
+<body>	<div class="topbar">
+        	<div class="wrap">
+            	<div class="topnav z">
+                	<ul>
+                        <li>
+                          <div class="one"><a href="http://www.knowsky.com">网站首页</a></div>
+                        </li>
+                        <li class="dropdown">
+                          <div class="one"><a href="http://code.knowsky.com/" target="_blank">源码下载<i class="icon"></i></a></div>
+                          <div class="two">     
+<a href="http://code.knowsky.com/down.asp?typeid=1" target="_blank">ASP源码</a>
+<a href="http://code.knowsky.com/down.asp?typeid=2" target="_blank">.Net源码</a>
+<a href="http://code.knowsky.com/down.asp?typeid=3" target="_blank">PHP源码</a>
+<a href="http://code.knowsky.com/down.asp?typeid=4" target="_blank">JSP源码</a> 
+<a href="http://code.knowsky.com/down.asp?typeid=13" target="_blank">JAVA源码</a> 
+<a href="http://code.knowsky.com/down.asp?typeid=5" target="_blank">CGI源码</a> 
+<a href="http://code.knowsky.com/down.asp?typeid=8" target="_blank">VB源码</a>
+<a href="http://code.knowsky.com/down.asp?typeid=9" target="_blank">VC源码</a>  
+<a href="http://code.knowsky.com/down.asp?typeid=12" target="_blank">PB源码</a>  
+<a href="http://code.knowsky.com/down.asp?typeid=14" target="_blank">VF源码</a>  
+<a href="http://code.knowsky.com/down.asp?typeid=11" target="_blank">汇编源码</a>  
+<a href="http://code.knowsky.com/down.asp?typeid=6" target="_blank">服务器软件</a>  
+                          </div>
+                        </li>
+                        <li class="dropdown">
+                          <div class="one"><a href="http://www.knowsky.com/" target="_blank">网站学院<i class="icon"></i></a></div>
+                          <div class="two"> 
+<a href="http://www.knowsky.com/tech_1_1.html">网络编程</a>
+<a href="http://www.knowsky.com/tech_2_1.html">数据库</a>
+<a href="http://www.knowsky.com/tech_3_1.html">网页制作</a>
+<a href="http://www.knowsky.com/tech_20_1.html">互联网</a>
+<a href="http://www.knowsky.com/tech_4_1.html">图形设计</a>
+<a href="http://www.knowsky.com/tech_5_1.html">网络冲浪</a>
+<a href="http://www.knowsky.com/tech_6_1.html">邮件客户端</a>
+<a href="http://www.knowsky.com/tech_7_1.html">下载软件</a>
+<a href="http://www.knowsky.com/tech_8_1.html">浏览器</a>
+<a href="http://www.knowsky.com/tech_9_1.html">QQ应用</a>
+<a href="http://www.knowsky.com/tech_10_1.html">操作系统</a>
+<a href="http://www.knowsky.com/tech_11_1.html">办公软件</a>
+<a href="http://www.knowsky.com/tech_12_1.html">常用软件</a>
+<a href="http://www.knowsky.com/tech_13_1.html">站长之家</a>
+<a href="http://www.knowsky.com/tech_14_1.html">安全软件</a>
+<a href="http://www.knowsky.com/tech_19_1.html">手机应用</a>
+<a href="http://www.knowsky.com/tech_15_1.html">邮件服务器</a>
+<a href="http://www.knowsky.com/tech_16_1.html">网络认证</a>
+<a href="http://www.knowsky.com/tech_17_1.html">组网教程</a>
+<a href="http://www.knowsky.com/tech_18_1.html">网络通信</a>
+                          </div>
+                        </li>
+                        <li class="dropdown">
+                          <div class="one"><a href="http://font.knowsky.com/" target="_blank">字体下载<i class="icon"></i></a></div>
+                          <div class="two"> 
+<a href="http://font.knowsky.com/fonts_150_1.htm" target="_blank">中文字体</a> 
+<a href="http://font.knowsky.com/fonts_142_1.htm" target="_blank">精制字体</a> 
+<a href="http://font.knowsky.com/fonts_143_1.htm" target="_blank">非英字体</a> 
+<a href="http://font.knowsky.com/fonts_144_1.htm" target="_blank">艺术字体</a> 
+<a href="http://font.knowsky.com/fonts_145_1.htm" target="_blank">哥特字体</a> 
+<a href="http://font.knowsky.com/fonts_146_1.htm" target="_blank">简单字体</a> 
+<a href="http://font.knowsky.com/fonts_147_1.htm" target="_blank">手写字体</a> 
+<a href="http://font.knowsky.com/fonts_148_1.htm" target="_blank">图案字体</a>
+<a href="http://font.knowsky.com/fonts_149_1.htm" target="_blank">节日字体</a>  
+<a href="http://font.knowsky.com/fonts_151_1.htm" target="_blank">著名字体</a>
+                          </div>
+                        </li>
+                        <li class="dropdown">
+                          <div class="one"><a href="http://sucai.knowsky.com/" target="_blank">素材<i class="icon"></i></a></div>
+                          <div class="two"> 
+<a href="http://sucai.knowsky.com/sucailist_1_1.html">抽象图片</a>
+<a href="http://sucai.knowsky.com/sucailist_2_1.html">动物图片</a>
+<a href="http://sucai.knowsky.com/sucailist_3_1.html">风景图片</a>
+<a href="http://sucai.knowsky.com/sucailist_4_1.html">花草图片</a>
+<a href="http://sucai.knowsky.com/sucailist_5_1.html">建筑图片</a>
+<a href="http://sucai.knowsky.com/sucailist_6_1.html">科技交通</a>
+<a href="http://sucai.knowsky.com/sucailist_7_1.html">美食图片</a>
+<a href="http://sucai.knowsky.com/sucailist_8_1.html">民族艺术</a>
+<a href="http://sucai.knowsky.com/sucailist_9_1.html">其他图片</a>
+<a href="http://sucai.knowsky.com/sucailist_10_1.html">人物图片</a>
+<a href="http://sucai.knowsky.com/sucailist_11_1.html">生活用品</a>
+<a href="http://sucai.knowsky.com/sucailist_12_1.html">水资源</a>
+<a href="http://sucai.knowsky.com/sucailist_13_1.html">太空科学</a>
+<a href="http://sucai.knowsky.com/sucailist_14_1.html">体育图片</a>
+<a href="http://sucai.knowsky.com/sucailist_15_1.html">装修图片</a>
+                          </div>
+                        </li>
+                        <li class="dropdown">
+                          <div class="one"><a href="http://tupian.knowsky.com/" target="_blank">图片<i class="icon"></i></a></div><div class="two"> 
+<a href="http://tupian.knowsky.com/tu_1_1.htm" target="_blank">风景图片</a> 
+<a href="http://tupian.knowsky.com/tu_2_1.htm" target="_blank">花草图片</a> 
+<a href="http://tupian.knowsky.com/tu_3_1.htm" target="_blank">水资源图片</a> 
+<a href="http://tupian.knowsky.com/tu_4_1.htm" target="_blank">动物图片</a> 
+<a href="http://tupian.knowsky.com/tu_5_1.htm" target="_blank">美食图片</a> 
+<a href="http://tupian.knowsky.com/tu_6_1.htm" target="_blank">人物图片</a> 
+<a href="http://tupian.knowsky.com/tu_7_1.htm" target="_blank">抽象图片</a>  
+<a href="http://tupian.knowsky.com/tu_8_1.htm" target="_blank">民族艺术</a>   
+<a href="http://tupian.knowsky.com/tu_9_1.htm" target="_blank">生活用品</a>    
+<a href="http://tupian.knowsky.com/tu_10_1.htm" target="_blank">太空科学</a>     
+<a href="http://tupian.knowsky.com/tu_11_1.htm" target="_blank">建筑图片</a>      
+<a href="http://tupian.knowsky.com/tu_12_1.htm" target="_blank">装修图片</a>       
+<a href="http://tupian.knowsky.com/tu_13_1.htm" target="_blank">科技交通</a>        
+<a href="http://tupian.knowsky.com/tu_14_1.htm" target="_blank">体育图片</a> 
+                         </div>
+                        </li>
+<li><div class="one"><a href="http://soft.knowsky.com/" target="_blank">软件</a></div></li>
+<li><div class="one"><a href="http://book.knowsky.com/" target="_blank">电脑书</a></div></li>
+<li><div class="one"><a href="http://moban.knowsky.com/" target="_blank">网站模板</a></div></li>
+<li><div class="one"><a href="http://psd.knowsky.com/" target="_blank">PSD</a></div></li>
+<li><div class="one"><a href="http://ppt.knowsky.com/" target="_blank">PPT</a></div></li>
+<li><div class="one"><a href="http://design.knowsky.com/" target="_blank">广告</a></div></li>
+<li><div class="one"><a href="http://bizhi.knowsky.com/" target="_blank">壁纸</a></div></li>
+<li><div class="one"><a href="http://shiliang.knowsky.com/" target="_blank">矢量</a></div></li>
+<li><div class="one"><a href="http://iphone.knowsky.com/" target="_blank">iphone</a></div></li>
+<li><div class="one"><a href="http://qqface.knowsky.com/" target="_blank">qq表情</a></div></li>
+<li><div class="one"><a href="http://mm.knowsky.com/" target="_blank">美图</a></div></li>
+<li><div class="one"><a href="http://xiaoyouxi.knowsky.com/" target="_blank">游戏</a></div></li>
+<li><div class="one"><a href="http://count.knowsky.com/" target="_blank">计数器</a></div></li>
+                        <div class="clear"></div>
+                      </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    <div class="mask">   
+    	<div class="maskw">
+            <div class="header">
+                <div class="headermain">
+                    <div class="wrap">
+                        <div class="headertop mb10" style=" padding-top:10px;">
+                            <div class="logo z">
+                                <a href="http://www.knowsky.com" target="_blank"><img src="images/logo.jpg" /></a>
+                            </div>
+                            <div class="hdad y">
+                                <a href="http://www.enkj.com/CloudHosting/" target="_blank"><img src="http://www.knowsky.com/ad/468-60.gif" /></a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                <div class="nav">
+                	<div class="navinner cl">
+                        <ul class="navlist ">
+                          <li class="tit"><a href="developer.asp">编程</a></li>
+                          <li><a href="web.asp">网页</a></li>
+                          <li><a href="photo.asp">图形</a></li>
+                          <li><a href="internet.asp">冲浪</a></li>
+                          <li class="tit"><a href="article.asp?typeid=128">空间</a></li>
+                          <li><a href="article.asp?typeid=145">迅雷</a></li>
+                          <li><a href="article.asp?typeid=146">电驴</a></li>
+                          <li><a href="article.asp?typeid=180">Win7</a></li>
+                          <div class="clear"></div>
+                        </ul>
+                        <ul class="navlist con2">
+                          <li class="tit"><a href="tech_6_1.html">邮件</a></li>
+                          <li><a href="tech_7_1.html">下载</a></li>
+                          <li><a href="tech_8_1.html">浏览</a></li>
+                          <li><a href="tech_9_1.html">QQ</a></li>
+                          <li><a href="system.asp">系统</a></li>
+                          <li class="tit"><a href="article.asp?typeid=179">输入</a></li>
+                          <li><a href="article.asp?typeid=42">PS</a></li>
+                          <li><a href="article.asp?typeid=45">FLASH</a></li>
+                          <li><a href="article.asp?typeid=47">CAD</a></li>
+                          <li><a href="article.asp?typeid=166">Ghost</a></li>
+                          <div class="clear"></div>
+                        </ul>
+                        <ul class="navlist con3">
+                          <li class="tit"><a href="office.asp">办公</a></li>
+                          <li><a href="soft.asp">软件</a></li>
+                          <li><a href="zhanzhang.asp">站长</a></li>
+                          <li><a href="networksecurity.asp">安全</a></li>
+                          <li><a href="article.asp?typeid=117">Word</a></li>
+                          <li><a href="article.asp?typeid=118">Excel</a></li>
+                          <li><a href="asp.asp">asp</a></li>
+                          <li><a href="php.asp">php</a></li>
+                          <div class="clear"></div>
+                        </ul>
+                        <ul class="navlist con4">
+                          <li class="tit"><a href="shoujixueyuan.asp">手机</a></li>
+                          <li><a href="mailserver.asp">邮件</a></li>
+                          <li><a href="exam.asp">认证</a></li>
+                          <li class="tit"><a href="sql.asp">Sql</a></li>
+                          <li><a href="article.asp?typeid=34">Dw</a></li>
+                          <li><a href="jsp.asp">JSP</a></li>
+                          <div class="clear"></div>
+                        </ul>
+                        <ul class="navlist con5">
+                          <li class="tit"><a href="tech_18_1.html">通信</a></li>
+                          <li class="tit"><a href="tech_17_1.html">组网</a></li>
+                          <li class="tit"><a href="article.asp?typeid=38">css</a></li>
+                          <li class="tit"><a href="article.asp?typeid=193">Win8</a></li>
+                          <div class="clear"></div>
+                        </ul>
+                        <ul class="navlist con6">
+                          <li class="tit"><strong><a href="tech_20_1.html">互联网</a></strong></li>
+                          <li class="tit"><strong><a href="tech_2_1.html">数据库</a></strong></li>
+                          <div class="clear"></div>
+                        </ul>
+                     </div>
+                </div>
+                        <div class="hdad mt10 mb10">
+<script>QIHOO_UNION_SLOT={w:1000, h:90, ls:"s23e2008d92"};</script><script src="http://s.lianmeng.360.cn/so/inlay.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containner">
+                <div class="indexnav mb10">
+                    <div class="wrap cl">
+                        <div class="pt z mt10">
+                            <i class="icon"></i>当前位置 &gt; <a href="http://www.knowsky.com" target="_blank">首页</a> &gt; <a href="school.asp">网站建设学院</a> &gt; 
+<a href="system.asp">操作系统</a> 
+
+&gt; <a href="article.asp?typeid=60">Linux教程</a>
+                        </div>
+                        <div class="search cl y">
+<form action="http://so.knowsky.com/cse/search" method="get" target="_blank" class="search-form" autocomplete="off" id="bdcs-search-form">                                  <input type="hidden" name="s" value="17551336237943259582">              
+<input type="hidden" name="entry" value="1">
+<input type="text" name="q" class="search_txt" placeholder="请输入关键词" autocomplete="off">              
+<input type="submit" class="search_btn" value="搜索">                       
+</form>
+</div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="content">
+                	<div class="w670 z">
+                    	<div class="articleview">
+                        	<div class="viewtit mt10">
+                            	<h1>初涉Linux ----------&gt; Ubuntu15.04的安装与美化</h1>
+                                <p><span>2015-9-3</span><span>来源：<a href="article.asp?typeid=60" target="_blank">Linux教程</a></span><span>人气：3675</span></p>
+                            </div>
+                            <div class="viewbox">
+                            	<div class="viewmain">
+<div style="float:left;padding: 9px;margin:9px;clear: both;">
+<script type="text/javascript">
+var sogou_ad_id=544619;
+var sogou_ad_height=300;
+var sogou_ad_width=360;
+</script>
+<script type='text/javascript' src='http://images.sohu.com/cs/jsfile/js/c.js'></script>
+</div>
+
+初涉<a href="http://www.knowsky.com/article.asp?typeid=60">linux</a> ----------&gt; <a href="http://www.knowsky.com/article.asp?typeid=188">Ubuntu</a>15.04的安装与美化<p>　　&ldquo;你玩 Linux 吗？&rdquo;</p><p>　　&ldquo;什么 Linux ？&rdquo;</p><p>　　&ldquo;你连 Linux 都不知道？还说是学计算机的呢。。。&rdquo;</p><p>　　&ldquo;干嘛要用 Linux 啊？windows多好，Linux？没兴趣&rdquo;</p>一. 前言<p>　　先简单说几句。</p><p>　　自己虽然之前都听说过 Linux，也知道它是一个开源的<a href="http://www.knowsky.com/system.asp">操作系统</a>。然而这对我来说并没有多大的吸引力，自己也怎么也想不明白，为什么那么多人&ldquo;崇尚&rdquo; Linux，为什么这样丑陋，且操作不友好的系统会火起来。相比起来根本看不到它的优势所在，还是觉得windows更加好（这就是一个外行人的看法吧，哈哈），况且没有什么必要，也就不想去接触 Linux。所以还是选择了安安稳稳地活在 windows 上，毕竟自己所有的东西都安放在了 windows 上，没有必要去重新适应一个环境，不想瞎折腾。其实说到底就是不了解 Linux，不知道学习Linux到底是学习什么？为什么要学习Linux, 怎么下手去学习Linux，我也没有能力解答得了这些问题，毕竟自己也是刚在Linux上抓摸滚打。（希望有大神帮忙解答一下 或借此机会多 聊几句）。</p><hr />二. 安装一个Linux系统<p>　　我前几天接触的 Linux ，当然啦，装软件当然是更喜欢装最新的，而 Ubuntu 系统在 Linux 也是到了无人不知无人不晓的境界，所以就去下了个 Ubuntu Kylin系统，之后才了解到，这个 Ubuntu Kylin是&ldquo;国产&rdquo;操作系统，想到它和Ubuntu没什么两样，而且都是 Linux，也就不去计较那么多了，就装了吧。</p><p>　　安装是很简单的。只要下载镜像，用软媒虚拟光驱写到 U 盘里，然后重启，通过 U盘启动，然后一步一步 next就ok了，不过在分区的时候需要注意下，我当初由于是全英文安装，看不懂那些提示（额，其实是不懂Linux)所以就没有分swap分区，后来知道可以在安装完系统后再分swap分区，所以也就不管那么多了。</p><p>推荐安装教程：http://www.linuxdiyf.com/linux/11165.html</p><p></p><p>好啦，装好了，呃呃呃，然而并没有什么值得得意或兴奋的，，因为自己根本就不懂这是什么鬼，而且图标还那么丑，把图标放在左边栏完全颠覆了我的windows使用习惯啊，有木有。</p><p><img src="http://s1.knowsky.com/20150728/pagtfky1bfz00.jpg" alt="" width="690" height="390" /></p><p></p><p>再推荐一篇网上的博文《安装完Ubuntu 15.04桌面后要做的15件事》，毕竟我什么都不懂，人家说这样做，就这样做吧，反正出事了还可以重装，要敢于折腾嘛。</p>三. 简单了解<p>　　Linux的历史就不多说了，不过了解一下还是挺有趣的，《鸟哥的 Linux 私房菜》里说里很多，我是权当了解。它和 MaxOs是同一个祖先（UNIX）的，而且大家都知道 Linux 里一切皆是文件（包括驱动），Linux里没有扩展名的概念，是通过文件的权限来确定文件的性质，之所以文件名后加上后缀是为了约定俗成的标识一类文件。</p><p>　　Linux下安装软件对我这个新手来说要麻烦些，它不像windows那样，直接下载 exe文件双击，确定安装目录就可以开始安装了，多友好的方式啊，而在linux下一般是通过 终端 命令行的 sudo apt-get install &lt;包名&gt; （什么是包名？那个sudo apt-get 是什么东西？网上的教程也不说明一下，照顾一下我这样的Linux初度感染者，算啦，人家说这样能达到目的，那就照着做吧）来安装的，这让我这个&ldquo;轻度强迫症&rdquo;怎么忍受得了啊！！！Linux 你倒是告诉我这几条命令做了什么啊？你到底修改了我什么东西？软件装在哪里了啊？我要怎么才能找到安装目录然后双击执行文件运行啊？？然而.........网上却没能找到答案，因为，这些问题，，都不能算是问题啊，唉，初学者就是要忍受各种无视才能成长啊。</p><p>　　</p><p>　　基本/常用的操作和 Windows 没什么不同，自己多用就会发现了。比如 按下 win 就可以进行搜索。</p><p>　　嗯，装好了，可以在网上根据各种教程来摆弄自己的Linux了，各种功能试一试，都可以玩一段时间了。</p><p>　　然后就是通过多搜索一些入门级的 Linux教程来&ldquo;存活&rdquo;了。</p><p>　　查看系统位数和系统信息：</p><p>　　<img src="http://s1.knowsky.com/20150728/xocpvbmenvu00.png" alt="" /></p><p>　　可以进行四分屏：　　<img src="http://s1.knowsky.com/20150728/ygruh21v4ys00.png" alt="" width="1332" height="749" /></p><p></p>四. 美化<p>　　我是无法忍受在一个不美好的环境下学习的，觉得，美好的视觉感受会让我的内心深处舒服很多，看起来都想多呆几秒。对于这点，我深有感触，之前玩弄黑苹果的时候就深深得被它的 设计给迷住了，那时候还在用<a href="http://www.knowsky.com/article.asp?typeid=180">Win7</a>。一进到Max OS里就有种无法自拔的感觉，那种美，那种动画的跳跃，那种微妙而又唯美的设计，真是让人流连忘返，虽然那时候还没有完全弄好，但还是很吸引我，尽管什么活都不做，你都会想要在Max里多停留一下。</p><p>　　好了，废话那么多，要开始美化一下我的 Linux了。</p><p>　　首先就是找张<a href="http://bizhi.knowsky.com/">壁纸</a>，这个就因人而异了，我个人是比较喜欢简洁简单，清爽的风格的壁纸的。</p><p>　　（网上也有吧ubuntu改成max os 系统的模样，真的很好看。有兴趣的朋友可以查一查。）</p>替换图标<p>　　首先，安装Unity tweak tool 来进行图标主题的更换。</p><p>　　<img src="http://s1.knowsky.com/20150728/3qdl3wfy5v100.png" alt="" /></p><p></p><p>　　 unity -tweak -tool的界面：</p><p>　　<img src="http://s1.knowsky.com/20150728/ntbmckaor3g01.png" alt="" /></p>　　然后就是去网上各种搜寻自己喜欢的主题和图标进行更换美化了。<p>　　这是我的 暗黑扁平系桌面 和文件夹图标，供大家参考：　　 </p><p>　　<img src="http://s1.knowsky.com/20150728/qtbeqdjddwh01.png" alt="" />                                          <img src="http://s1.knowsky.com/20150728/ccnjventkna01.png" alt="" />　　</p>　　喜欢这套主题的朋友可以到这样安装：<pre>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.04/ /' &gt;&gt; /etc/apt/sources.list.d/arc-theme.list"sudo apt-get updatesudo apt-get install arc-theme</pre><p>　　</p><p>　　原文链接：https://linux.cn/article-5614-weixin.html</p><p>　　另外推荐几篇好的美化的博文：</p><p>　　http://linux.cn/article-3120-1.html</p><p>　　http://www.linuxeden.com/html/news/20141021/156404.html</p><p>　　http://linux.cn/article-3120-1.html</p><p>　　我个人还是比较喜欢简洁和扁平风格的图标的，看起来舒服！这里有一套很好看的主题却怎么也下载不了，，，，</p><p>　　http://www.ubuntuthemes.org/downloads/flatty/　　<img src="http://s1.knowsky.com/20150728/cqpf5zv1hxa01.png" alt="" /></p><p>卸载主题：</p>　　自己安装的主题在~/.themes目录中，如果不喜欢直接删除即可。　　系统的主题安装在/usr/share/themes目录中，最好通过删除软件包的方式。美化终端：<p>　　先贴出我的终端：</p><p>　　<img src="http://s1.knowsky.com/20150728/cabqrpbb0hq01.png" alt="" /></p><p>　　Ctrl + alt + T （快捷键可自行设置）可以打开终端。</p><p>　　点击终端上的edit 然后 <a href="http://pr.knowsky.com/">PR</a>ofile preference就看到设置主题和北京透明度等等的选项了，这里根据自己需要设置：</p>　　<img src="http://s1.knowsky.com/20150728/i2dul2kipbh01.png" alt="" /><p>　　</p>五. 后记<p>　　虽然说起来只有几句话，但是从开始到结束的这个从 一无所知 到 慢慢接触到一些名词 再到 了解基本的操作步骤，以及最后的满地找合适的主题也花了不少的时间，但是，最后看到自己&ldquo;亲手&rdquo;弄的桌面，那么漂亮，几乎完全符合自己的需求的时候，就会产生一种成就感，内心也感到了快乐，所以，这个过程还是很美好的，自己对Linux 的印象也就慢慢好转了起来，也想多一点去了解他，</p><p>　　这第一记就到这里吧，希望可以得到 Linux 老鸟对文章开头那几个问题的指点 或 朋友们的学习建议。</p><hr /><p>最后的最后再贴一张桌面</p><hr /><p><img src="http://s1.knowsky.com/20150728/tu3i1qou5oq01.png" alt="" /></p><p></p><br>
+
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_bdysc" data-cmd="bdysc" title="分享到百度云收藏"></a><a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<br>
+
+<script>QIHOO_UNION_SLOT={w:650, h:90, ls:"s23e2008d92"};</script><script src="http://s.lianmeng.360.cn/so/inlay.js" charset="utf-8"></script>
+
+<div style="font-size: 0px; height: 0px; clear: both;"></div>                                                                             
+                                </div>
+                            </div>
+                        </div>
+
+<div class="box mt20">
+    <div class="viewblist">
+      <ul>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="linux下svn命令大全" href="619799.html" target="_blank">linux下svn命令大全</a></h3>
+<div class="vblinfo">
+<span>2015-09-03</span>人气：82<p>inux下svn命令大全,linux下svn命令大全1、将文件checkout到本地目录svncheckoutpath（path是服务器上的目录）例如：svncheckoutsvn://192.168..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="线程之线程同步" href="619892.html" target="_blank">线程之线程同步</a></h3>
+<div class="vblinfo">
+<span>2015-09-03</span>人气：159<p>程之程同步,线程之线程同步前言当多个控制线程共享相同的内存时，需要确保每个线程看到一致的数据视图。如果每个线程使用的变量都是其他线程不会读取或修改的，那么就不会存在一致性问题。同样地，如..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="Linux 小知识翻译" href="619260.html" target="_blank">Linux 小知识翻译</a></h3>
+<div class="vblinfo">
+<span>2015-09-03</span>人气：68<p>inux小知识翻译,Linux小知识翻译-「为什么安全是互联网的问题？」当然，虽说「由于有心怀不轨的人在，一定要注意安全问题」。但另一方面，也有人认为「如果互联网自己就考虑好安全问题的话，那么用..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="Linux压缩打包命令使用方法" href="398902.html" target="_blank">Linux压缩打包命令使用方法</a></h3>
+<div class="vblinfo">
+<span>2008-06-08</span>人气：4837<p>Linux压缩打包命令使用方法,tar命令[rootlinux~]#tar[-cxtzjvfpPN]文件与目录....参数：-c：建立一个压缩文件的参数指令create的意思；-x：解开一个压缩文件的参数指..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="搭建基于Linux桌面环境的影音平台" href="340646.html" target="_blank">搭建基于Linux桌面环境的影音平台</a></h3>
+<div class="vblinfo">
+<span>2006-09-18</span>人气：6820<p>搭建基于Linux桌面环境的影音平台,视频、音频的处理加工一直是计算机在多媒体方面的重要应用，传统上是Unix工作站的天下。由于Linux是Unix操作系统的变体，从某种程度上说，它天生适用于图形市场。目前已有一..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="安装linux系统后修改默认开机启动项" href="888341.html" target="_blank">安装linux系统后修改默认开机启动项</a></h3>
+<div class="vblinfo">
+<span>2015-11-26</span>人气：60<p>安装linux系统后修改默认开机启动项,nbsp;nbsp;nbsp;nbsp;在安装linux系统后，开机的时候默认启动项变成了linux，这让许多经常使用windows系统的同学感到抓狂：按下电源键后，打开手机..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="jdk1.7 tomcat-7安装" href="619059.html" target="_blank">jdk1.7 tomcat-7安装</a></h3>
+<div class="vblinfo">
+<span>2015-09-03</span>人气：89<p>jdk1.7tomcat-7安装,jdk1.7tomcat-7安装由于软件下载地址经常有变动，所以不能直接wget，还是直接到网上点击下载下载jdkhttp://www.oracle.com/technetw..</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="vblw cl">
+<div class="vblc y" style=" width:100%;"><h3><a title="【Linux】fork()函数总结，以及fork()引出的一些知识点" href="618703.html" target="_blank">【Linux】fork()函数总结，以及fork()引出的一些知识点</a></h3>
+<div class="vblinfo">
+<span>2015-09-03</span>人气：175<p>【Linux】fork函数总结，以及fork引出的一些知识点,【Linux】fork函数总结，以及fork引出的一些知识点1、进程相关概念　　当一个进程的时间片用完后，系统把相关的寄存器的值保存到该进程表相应的表项里。同时把代替该进程即..</p>
+</div>
+</div>
+</li>
+
+</ul>
+   </div>
+</div>
+
+                    <div class="zxtw mt20">
+                        	<div class="zxtwt cl">
+                            	<h3>优质网站模板</h3>
+                            </div>
+                            <div class="zxtwc">
+                                <div class="bd">  
+                                    <ul>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_13754.htm" title="Designload 公司模板"><img src="http://s9.knowsky.com/moban/sjpg/2011120607362446891.jpg" border="0" alt="Designload 公司模板"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_13754.htm" title="Designload 公司模板">Designload 公司模板</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_9454.htm" title="娱乐综合模板(HTML)"><img src="http://s9.knowsky.com/moban/sjpg/2011120607131617163.jpg" border="0" alt="娱乐综合模板(HTML)"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_9454.htm" title="娱乐综合模板(HTML)">娱乐综合模板(HTML)</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_7863.htm" title="Wordpress i-glory"><img src="http://s9.knowsky.com/moban/sjpg/2011120607022267181.jpg" border="0" alt="Wordpress i-glory"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_7863.htm" title="Wordpress i-glory">Wordpress i-glory</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_8414.htm" title="公司模板(HTML)"><img src="http://s9.knowsky.com/moban/sjpg/2011120607070468721.jpg" border="0" alt="公司模板(HTML)"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_8414.htm" title="公司模板(HTML)">公司模板(HTML)</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_1439.htm" title="PSD婚纱相框模板下载"><img src="http://s9.knowsky.com/moban/sjpg/2011120505440701550.jpg" border="0" alt="PSD婚纱相框模板下载"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_1439.htm" title="PSD婚纱相框模板下载">PSD婚纱相框模板下载</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_12049.htm" title="DesignEmpire 公司模板"><img src="http://s9.knowsky.com/moban/sjpg/2011120607281967164.jpg" border="0" alt="DesignEmpire 公司模板"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_12049.htm" title="DesignEmpire 公司模板">DesignEmpire 公司模板</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_2510.htm" title="儿童摄影模板"><img src="http://s9.knowsky.com/moban/sjpg/2011120506443201526.jpg" border="0" alt="儿童摄影模板"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_2510.htm" title="儿童摄影模板">儿童摄影模板</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_9410.htm" title="公司商务模板"><img src="http://s9.knowsky.com/moban/sjpg/2011120607125606241.jpg" border="0" alt="公司商务模板"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_9410.htm" title="公司商务模板">公司商务模板</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_11771.htm" title="Designload 个性模板"><img src="http://s9.knowsky.com/moban/sjpg/2011120607271184340.jpg" border="0" alt="Designload 个性模板"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_11771.htm" title="Designload 个性模板">Designload 个性模板</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_1535.htm" title="Discuz! 厦门小鱼模板"><img src="http://s9.knowsky.com/moban/sjpg/2011120505491815658.jpg" border="0" alt="Discuz! 厦门小鱼模板"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_1535.htm" title="Discuz! 厦门小鱼模板">Discuz! 厦门小鱼模板</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_8217.htm" title="PJBlog2 baclkly"><img src="http://s9.knowsky.com/moban/sjpg/2011120607055506252.jpg" border="0" alt="PJBlog2 baclkly"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_8217.htm" title="PJBlog2 baclkly">PJBlog2 baclkly</a></p>
+                                    </li>
+                                    <li>
+                                      <div class="zxtwpic"><a href="http://moban.knowsky.com/mobanlist_9052.htm" title="ShopEx商店 头头是道"><img src="http://s9.knowsky.com/moban/sjpg/2011120607105140683.jpg" border="0" alt="ShopEx商店 头头是道"></a></div>
+                                      <p><a href="http://moban.knowsky.com/mobanlist_9052.htm" title="ShopEx商店 头头是道">ShopEx商店 头头是道</a></p>
+                                    </li>                              </ul>
+                                </div>
+                                <div class="hd">
+                                    <ul><li class="on">1</li><li class="">2</li><li class="">3</li></ul>   
+                                </div>
+                                <div class="slider-nav">
+                                    <a href="javascript:void(0)" class="prev"></a>
+                                    <a href="javascript:void(0)" class="next"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+			jq(".zxtw").slide({ mainCell:".bd ul", effect:"leftLoop", vis:4, scroll:4,interTime:5000,autoPlay:true});</script>
+                        <div class="box mt20">
+
+<script>QIHOO_UNION_SLOT={w:640, h:130, ls:"s22d6008897"};</script><script src="http://s.lianmeng.360.cn/so/inlay.js" charset="utf-8"></script>
+
+</div>
+
+<div class="box mt20"><div id="hm_t_3781"></div></div>
+                </div>
+                    <div class="w300 y">
+                	<div class="aside">
+                    	<div class="subcate border mb20">
+                        	<div class="asidetit cl">
+                            	<h3>操作系统文章分类</h3>
+                            </div>
+                            <div class="subcatec">
+                            	<ul>
+
+                                    <li><i></i><a href="article.asp?typeid=57">Windows 2003教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=126">Windows 2008教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=115">Windows Vista教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=58">Windows XP教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=59">Windows 2000教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=60">Linux教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=61">注册表</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=103">FreeBSD教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=104">Solaris教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=62">经验技巧</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=180">Windows 7教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=188">Ubuntu教程</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=191">Chrome OS</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=193">Windows 8</a></li>
+
+                                    <li><i></i><a href="article.asp?typeid=202">Windows 10</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                            <div class="ad mb20">
+<script>QIHOO_UNION_SLOT={w:300, h:250, ls:"s5507ff4a8b"};</script><script src="http://s.lianmeng.360.cn/so/inlay.js" charset="utf-8"></script>
+                            </div>
+                        	<div class="catecommentrank border mb20">
+                                <div class="asidetit cl">
+                                    <h3>最新文章推荐</h3>
+                                </div>
+                                <div class="asidelist caterankc">
+                                    <ul>
+<li class="cl"><em class="no1">1</em><a href="619530.html" title="gnuplot安装问题(set terminal &quot;unknown&quot;)">gnuplot安装问题(set terminal &</a></li><li class="cl"><em class="no1">2</em><a href="888237.html" title="unix/linux进程详解——代码">unix/linux进程详解——代码</a></li><li class="cl"><em class="no1">3</em><a href="18256.html" title="Linux 开机程序之研讨">Linux 开机程序之研讨</a></li><li class="cl"><em class="no1">4</em><a href="398337.html" title="Linux Shell学习：uniq命令使用方法介绍 ">Linux Shell学习：uniq命令使用方法介绍 </a></li><li class="cl"><em class="no1">5</em><a href="619840.html" title="(转)RHEL/CentOS 6.x使用EPEL6与remi的yum源安装MySQL 5.5.x">(转)RHEL/CentOS 6.x使用EPEL6与</a></li><li class="cl"><em class="no1">6</em><a href="619162.html" title="关于Linux与windows传递文件乱码问题">关于Linux与windows传递文件乱码问题</a></li><li class="cl"><em class="no1">7</em><a href="619648.html" title="UNIX网络编程读书笔记：原始套接口">UNIX网络编程读书笔记：原始套接口</a></li><li class="cl"><em class="no1">8</em><a href="18497.html" title="linux磁盘管理命令--dd">linux磁盘管理命令--dd</a></li><li class="cl"><em class="no1">9</em><a href="618800.html" title="linux正则表达式">linux正则表达式</a></li><li class="cl"><em class="no1">10</em><a href="619337.html" title="解决centos yum安装&quot;No package nginx available.&quot;问题">解决centos yum安装&quot;No pac</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="ad mb20">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- knowsky 文章右则 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-6565147514244127"
+     data-ad-slot="2618707968"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                            </div>
+
+                            <div class="catecommentrank border mb20">
+                                <div class="asidetit cl">
+                                    <h3>操作系统推荐</h3>
+                                </div>
+                                <div class="asidelist caterankc">
+                                    <ul><li class="cl"><em class="no1">1</em><a href="18764.html" title="用BootSkin轻松换XP启动画面">用BootSkin轻松换XP启动画面</a></li><li class="cl"><em class="no1">2</em><a href="647450.html" title="win7自带的多功能防火墙的最强使用技巧">win7自带的多功能防火墙的最强使用技巧</a></li><li class="cl"><em class="no1">3</em><a href="675817.html" title="使用一键GHOST工具备份操作系统">使用一键GHOST工具备份操作系统</a></li><li class="cl"><em class="no1">4</em><a href="681971.html" title="ape是什么文件？">ape是什么文件？</a></li><li class="cl"><em class="no1">5</em><a href="638803.html" title="十个Win8威胁其他平板操作系统的原因">十个Win8威胁其他平板操作系统的原因</a></li><li class="cl"><em class="no1">6</em><a href="641261.html" title="Windows 8 下离线安装.NET Framework 3.5">Windows 8 下离线安装.NET Framew</a></li><li class="cl"><em class="no1">7</em><a href="677618.html" title="如何给64位Windows XP系统减肥">如何给64位Windows XP系统减肥</a></li><li class="cl"><em class="no1">8</em><a href="677132.html" title="Windows各系列启动速度差异">Windows各系列启动速度差异</a></li><li class="cl"><em class="no1">9</em><a href="641000.html" title="Win8系统恢复亮点?">Win8系统恢复亮点?</a></li><li class="cl"><em class="no1">10</em><a href="626339.html" title="把“回收站”锁定到Win10系统任务栏的方法">把“回收站”锁定到Win10系统任务栏的方法</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="ad mb20">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- knowsky 文章右则 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-6565147514244127"
+     data-ad-slot="2618707968"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>    <div class="footer">
+    	<div class="main">
+			<p><a href="http://wpa.qq.com/msgrd?v=3&uin=1783983&site=qq&menu=yes" target="_blank">广告刊登</a> 
+      | <a href="http://wpa.qq.com/msgrd?v=3&uin=1783983&site=qq&menu=yes" target="_blank">版权声明</a> 
+      | <a href="http://wpa.qq.com/msgrd?v=3&uin=1783983&site=qq&menu=yes" target="_blank">联系我们</a> 
+      | <a href="http://m.knowsky.com">移动版</a></p><p>Copyright © 2000-2016 www.knowsky.com All rights reserved | 沪ICP备05001343号</p>		
+		</div>
+    </div>
+
+    <script type="text/javascript">
+		jq(".slide").slide({ mainCell:".bd ul",titCell:".hd ul",delayTime:300,interTime:3000,effect:"fade",autoPlay:true,autoPage:true,switchLoad:"_src"});
+		jq(".slide").each(function(s){
+		jq(this).hover(
+		function(){
+		jq(this).children(".slider-nav").show();
+		},
+		function(){
+		jq(this).children(".slider-nav").hide();
+		})
+		})
+		jq(".slb").slide({ mainCell:".bd ul",titCell:".hd ul",delayTime:300,interTime:3000,effect:"leftLoop",autoPlay:true,autoPage:true,switchLoad:"_src"});
+	</script>
+	<script type="text/javascript">
+        jq(".topnav li.dropdown").each(function(s){
+        jq(this).hover(function(){
+        jq(this).addClass("hover");
+        },function(){
+        jq(this).removeClass("hover");
+        })
+        })
+    </script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?a89960924c54901de40c2bead6702d5c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>QIHOO_UNION_F_SLOT={w:120, h:270, ls:"s0136008595",position:3, display:0,origin:2};</script><script src="http://s.lianmeng.360.cn/so/f.js" charset="utf-8"></script>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+            
+</body>
+</html>
+
+<script type="text/javascript">
+/*新 KNOWSKY 图+*/
+var cpro_id = "u2234384";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></script>
+����      V��V�<D S       #    :http://www.knowsky.com/617506.html necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 23 Mar 2016 03:59:53 GMT
+Server: Microsoft-IIS/6.0
+Content-Length: 48749
+Content-Type: text/html
+Cache-Control: private
+ charset windows-1252 uncompressed-len 0 predictor::resource-count 61 predictor::http://www.knowsky.com/css.css 1,1,1458705613,0 predictor::http://www.knowsky.com/images/js/jquery.js 1,1,1458705613,0 predictor::http://www.knowsky.com/images/js/jquery.SuperSlide.js 1,1,1458705613,0 predictor::http://www.knowsky.com/images/logo.jpg 1,1,1458705613,0 predictor::http://www.knowsky.com/ad/468-60.gif 1,1,1458705613,0 predictor::http://s.lianmeng.360.cn/so/inlay.js 1,1,1458705613,0 predictor::http://images.sohu.com/cs/jsfile/js/c.js 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/pagtfky1bfz00.jpg 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/xocpvbmenvu00.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/ygruh21v4ys00.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/3qdl3wfy5v100.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/ntbmckaor3g01.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/qtbeqdjddwh01.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/ccnjventkna01.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/cqpf5zv1hxa01.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/cabqrpbb0hq01.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/i2dul2kipbh01.png 1,1,1458705613,0 predictor::http://s1.knowsky.com/20150728/tu3i1qou5oq01.png 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607362446891.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607131617163.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607022267181.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607070468721.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120505440701550.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607281967164.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120506443201526.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607125606241.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607271184340.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120505491815658.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607055506252.jpg 1,1,1458705613,0 predictor::http://s9.knowsky.com/moban/sjpg/2011120607105140683.jpg 1,1,1458705613,0 predictor::http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 1,1,1458705613,0 predictor::http://s.lianmeng.360.cn/so/f.js 1,1,1458705613,0 predictor::http://cpro.baidustatic.com/cpro/ui/i.js 1,1,1458705613,0 predictor::http://www.knowsky.com/images/icon.png 1,1,1458705613,0 predictor::http://dsp.brand.sogou.com/ask_service?callback=SOGOU_STAR_URL_CALLBACK&url=http%3A%2F%2Fwww.knowsky.com%2F617506.html 1,1,1458705613,0 predictor::http://p.lu.sogou.com/lm.jpg 1,1,1458705613,0 predictor::http://images.sohu.com/cs/jsfile/js/pe.js 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=405195 1,1,1458705613,0 predictor::http://hm.baidu.com/hm.js?a89960924c54901de40c2bead6702d5c 1,1,1458705613,0 predictor::http://push.zhanzhang.baidu.com/push.js 1,1,1458705613,0 predictor::http://imageplus.baidu.com/ui?api=config&tu=2234384&pic=49&vn=160314&callback=bd__cbs__kf5qnw 1,1,1458705613,0 predictor::http://p6.qhimg.com/d/inn/69518715/close.jpg 1,1,1458705613,0 predictor::http://pagead2.googlesyndication.com/pub-config/r20160212/ca-pub-6565147514244127.js 1,1,1458705613,0 predictor::http://pagead2.googlesyndication.com/pagead/js/r20160317/r20151006/show_ads_impl.js 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/share/share_api.js?v=226108fe.js 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/view/share_view.js?v=3ae6026d.js 1,1,1458705613,0 predictor::http://api.share.baidu.com/s.gif?r=http%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3Dp7Yhu2sq_spX9SiMoz-H_ia6-zsG4pn1ynOReQ39ktXblKOY6QpLJXzWS6faoJEM%26wd%3D%26eqid%3De6d224e00000ae000000000356f21498&l=http://www.knowsky.com/617506.html 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/base/tangram.js?v=37768233.js 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/share/api_base.js 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/view/view_base.js 1,1,1458705613,0 predictor::http://hm.baidu.com/hm.gif?cc=0&ck=1&cl=24-bit&ds=1920x1080&et=0&ja=0&ln=en-US&lo=0&nv=1&rnd=1658230200&si=a89960924c54901de40c2bead6702d5c&st=3&su=http%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3Dp7Yhu2sq_spX9SiMoz-H_ia6-zsG4pn1ynOReQ39ktXblKOY6QpLJXzWS6faoJEM%26wd%3D%26eqid%3De6d224e00000ae000000000356f21498&v=1.1.26&lv=1&tt=%E5%88%9D%E6%B6%89Linux%20----------%3E%20Ubuntu15.04%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E7%BE%8E%E5%8C%96_Linux%E6%95%99%E7%A8%8B_www.knowsky.com 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/css/share_style0_32.css?v=4413acf0.css 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/component/partners.js?v=911c4302.js 1,1,1458705613,0 predictor::http://pagead2.googlesyndication.com/pagead/js/r20160317/r20151006/expansion_embed.js 1,1,1458705613,0 predictor::http://pagead2.googlesyndication.com/pagead/osd.js 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/img/share/icons_0_32.png?v=7f3ed0f4.png 1,1,1458705613,0 predictor::http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js 1,1,1458705613,0 predictor::http://nsclick.baidu.com/v.gif?pid=307&type=3071&sign=&desturl=http%253A%252F%252Fwww.baidu.com%252Flink%253Furl%253Dp7Yhu2sq_spX9SiMoz-H_ia6-zsG4pn1ynOReQ39ktXblKOY6QpLJXzWS6faoJEM%2526wd%253D%2526eqid%253De6d224e00000ae000000000356f21498&linkid=im4bnvcxwni&apitype=1 1,1,1458705613,0 predictor::http://api.share.baidu.com/v.gif?l=http%3A%2F%2Fwww.knowsky.com%2F617506.html 1,1,1458705613,0 predictor::http://eff.inte.sogou.com/answer?id=544619&bi=1&sohuurl=http%3A%2F%2Fwww.knowsky.com%2F617506.html&rnd=1b0492bd666e5592&if=16&w=360&h=300&js=c&z=94f705ec363bd568&pt=62908&ps=1458705678388&it=58944&vs=0&ft=0&vt=3121&left=449&top=490&op=100&csp=1920,1080&bcl=1842,985&pof=1842,10288&fs=1&total=1 1,1,1458705613,0 predictor::http://hm.baidu.com/hm.gif?cc=0&ck=1&cl=24-bit&ds=1920x1080&ep=62270%2C61896&et=3&ja=0&ln=en-US&lo=0&nv=0&rnd=911287419&si=a89960924c54901de40c2bead6702d5c&st=4&su=http%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3Dp7Yhu2sq_spX9SiMoz-H_ia6-zsG4pn1ynOReQ39ktXblKOY6QpLJXzWS6faoJEM%26wd%3D%26eqid%3De6d224e00000ae000000000356f21498&v=1.1.26&lv=1 1,1,1458705613,0   �m

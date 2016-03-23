@@ -1,0 +1,35 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="LVDS">
+          <vendor>SNY</vendor>
+          <product>0x05fa</product>
+          <serial>0x00000000</serial>
+          <width>1366</width>
+          <height>768</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-0">
+      </output>
+      <output name="VGA-0">
+          <vendor>AOC</vendor>
+          <product>0x2769</product>
+          <serial>0x00001ccb</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1366</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+</monitors>

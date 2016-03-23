@@ -1,0 +1,80 @@
+status: 200
+content-length: 1676
+expires: Wed, 23 Mar 2016 07:13:59 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/updates-last-1-days/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept,Accept-Encoding
+server: gunicorn/19.3.0
+last-modified: Wed, 23 Mar 2016 03:13:59 GMT
+-content-encoding: gzip
+x-bzr-revision-number: 313
+cache-control: max-age=14400
+date: Wed, 23 Mar 2016 03:30:30 GMT
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+[
+    {
+        "ratings_total": 368, 
+        "ratings_average": "4.46", 
+        "app_name": "", 
+        "package_name": "pidgin", 
+        "histogram": "[16, 11, 18, 67, 256]"
+    }, 
+    {
+        "ratings_total": 135, 
+        "ratings_average": "4.04", 
+        "app_name": "", 
+        "package_name": "keepass2", 
+        "histogram": "[11, 8, 19, 23, 74]"
+    }, 
+    {
+        "ratings_total": 80, 
+        "ratings_average": "4.38", 
+        "app_name": "", 
+        "package_name": "gthumb", 
+        "histogram": "[3, 6, 1, 18, 52]"
+    }, 
+    {
+        "ratings_total": 51, 
+        "ratings_average": "4.20", 
+        "app_name": "", 
+        "package_name": "mysql-workbench", 
+        "histogram": "[5, 2, 1, 13, 30]"
+    }, 
+    {
+        "ratings_total": 16, 
+        "ratings_average": "3.38", 
+        "app_name": "", 
+        "package_name": "tomatoes", 
+        "histogram": "[2, 4, 0, 6, 4]"
+    }, 
+    {
+        "ratings_total": 175, 
+        "ratings_average": "4.60", 
+        "app_name": "", 
+        "package_name": "codeblocks", 
+        "histogram": "[3, 4, 10, 26, 132]"
+    }, 
+    {
+        "ratings_total": 222, 
+        "ratings_average": "3.59", 
+        "app_name": "", 
+        "package_name": "deja-dup", 
+        "histogram": "[47, 21, 15, 33, 106]"
+    }, 
+    {
+        "ratings_total": 299, 
+        "ratings_average": "4.65", 
+        "app_name": "", 
+        "package_name": "blender", 
+        "histogram": "[10, 5, 11, 28, 245]"
+    }, 
+    {
+        "ratings_total": 1331, 
+        "ratings_average": "4.33", 
+        "app_name": "", 
+        "package_name": "firefox", 
+        "histogram": "[98, 46, 87, 183, 917]"
+    }
+]

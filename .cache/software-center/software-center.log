@@ -1,0 +1,277 @@
+2016-03-23 11:16:55,240 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 11:16:55,337 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 11:16:55,517 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2016-03-23 11:16:57,503 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-23 11:16:57,695 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 11:16:57,711 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 11:16:57,843 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 11:17:05,748 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-03-23 11:17:05,751 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2016-03-23 11:17:05,773 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2016-03-23 11:30:24,406 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 11:30:24,457 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 11:30:28,171 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 11:30:28,174 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 11:30:28,298 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 11:30:32,987 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-03-23 11:34:05,061 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 11:34:05,111 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 11:34:05,832 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 11:34:05,834 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 11:34:05,923 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 11:34:06,569 - softwarecenter.db.enquire - ERROR - _get_estimate_nr_apps_and_nr_pkgs failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/enquire.py", line 115, in _get_estimate_nr_apps_and_nr_pkgs
+    tmp_matches = enquire.get_mset(0, len(self.db), None, xfilter)
+  File "/usr/share/software-center/softwarecenter/db/appfilter.py", line 89, in __call__
+    if (not pkgname in self.cache and
+  File "/usr/share/software-center/softwarecenter/db/pkginfo_impl/aptcache.py", line 281, in __contains__
+    return self._cache.__contains__(k)
+AttributeError: 'NoneType' object has no attribute '__contains__'
+2016-03-23 11:34:08,570 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 11:34:08,614 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 11:34:09,007 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 11:34:09,010 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 11:34:09,107 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 11:34:10,147 - softwarecenter.db.enquire - ERROR - _get_estimate_nr_apps_and_nr_pkgs failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/enquire.py", line 115, in _get_estimate_nr_apps_and_nr_pkgs
+    tmp_matches = enquire.get_mset(0, len(self.db), None, xfilter)
+  File "/usr/share/software-center/softwarecenter/db/appfilter.py", line 89, in __call__
+    if (not pkgname in self.cache and
+  File "/usr/share/software-center/softwarecenter/db/pkginfo_impl/aptcache.py", line 281, in __contains__
+    return self._cache.__contains__(k)
+AttributeError: 'NoneType' object has no attribute '__contains__'
+2016-03-23 11:35:17,539 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 11:35:17,586 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 11:35:18,321 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 11:35:18,330 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 11:35:18,426 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 11:35:23,072 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-03-23 11:35:42,093 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2016-03-23 11:39:55,296 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2016-03-23 11:39:56,338 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_get_reviews_helper.py', '--language', 'zh_CN', '--origin', 'any', '--distroseries', 'any', '--pkgname', 'unity-webapps-qq-mail', '--page', '1', '--sort', 'helpful']'
+2016-03-23 11:39:56,338 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'ERROR:__main__:get_reviews
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 68, in <module>
+    piston_reviews = try_get_reviews(kwargs)
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 23, in try_get_reviews
+    piston_reviews = rnrclient.get_reviews(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 168, in wrapper
+    body = func(self, *args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/rnrclient_pristine.py", line 121, in get_reviews
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 787, in _get
+    extra_headers=extra_headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 491, in get
+    return self.request_url(url, method='GET', headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 419, in request_url
+    url, method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1387, in _request
+    redirections=redirections - 1)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1334, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1256, in _conn_request
+    conn.connect()
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1020, in connect
+    self.disable_ssl_certificate_validation, self.ca_certs)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 80, in _ssl_wrap_socket
+    cert_reqs=cert_reqs, ca_certs=ca_certs)
+  File "/usr/lib/python2.7/ssl.py", line 911, in wrap_socket
+    ciphers=ciphers)
+  File "/usr/lib/python2.7/ssl.py", line 520, in __init__
+    self._context.load_verify_locations(ca_certs)
+IOError: [Errno 2] No such file or directory
+'
+2016-03-23 11:39:56,484 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "unity-webapps-qq-mail"}']'
+2016-03-23 11:39:56,484 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'ERROR:__main__:urclient_apps
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_generic_helper.py", line 147, in <module>
+    piston_reply = f(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 131, in wrapper
+    body = func(*args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/sreclient_pristine.py", line 64, in recommend_app
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 787, in _get
+    extra_headers=extra_headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 491, in get
+    return self.request_url(url, method='GET', headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 419, in request_url
+    url, method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1387, in _request
+    redirections=redirections - 1)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1334, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1256, in _conn_request
+    conn.connect()
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1020, in connect
+    self.disable_ssl_certificate_validation, self.ca_certs)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 80, in _ssl_wrap_socket
+    cert_reqs=cert_reqs, ca_certs=ca_certs)
+  File "/usr/lib/python2.7/ssl.py", line 911, in wrap_socket
+    ciphers=ciphers)
+  File "/usr/lib/python2.7/ssl.py", line 520, in __init__
+    self._context.load_verify_locations(ca_certs)
+IOError: [Errno 2] No such file or directory
+'
+2016-03-23 11:39:56,484 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: ERROR:__main__:urclient_apps
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_generic_helper.py", line 147, in <module>
+    piston_reply = f(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 131, in wrapper
+    body = func(*args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/sreclient_pristine.py", line 64, in recommend_app
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 787, in _get
+    extra_headers=extra_headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 491, in get
+    return self.request_url(url, method='GET', headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 419, in request_url
+    url, method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1387, in _request
+    redirections=redirections - 1)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1334, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1256, in _conn_request
+    conn.connect()
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1020, in connect
+    self.disable_ssl_certificate_validation, self.ca_certs)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 80, in _ssl_wrap_socket
+    cert_reqs=cert_reqs, ca_certs=ca_certs)
+  File "/usr/lib/python2.7/ssl.py", line 911, in wrap_socket
+    ciphers=ciphers)
+  File "/usr/lib/python2.7/ssl.py", line 520, in __init__
+    self._context.load_verify_locations(ca_certs)
+IOError: [Errno 2] No such file or directory
+
+2016-03-23 11:39:56,485 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: ERROR:__main__:urclient_apps
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_generic_helper.py", line 147, in <module>
+    piston_reply = f(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 131, in wrapper
+    body = func(*args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/sreclient_pristine.py", line 64, in recommend_app
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 787, in _get
+    extra_headers=extra_headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 491, in get
+    return self.request_url(url, method='GET', headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 419, in request_url
+    url, method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1387, in _request
+    redirections=redirections - 1)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1592, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1334, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1256, in _conn_request
+    conn.connect()
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1020, in connect
+    self.disable_ssl_certificate_validation, self.ca_certs)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 80, in _ssl_wrap_socket
+    cert_reqs=cert_reqs, ca_certs=ca_certs)
+  File "/usr/lib/python2.7/ssl.py", line 911, in wrap_socket
+    ciphers=ciphers)
+  File "/usr/lib/python2.7/ssl.py", line 520, in __init__
+    self._context.load_verify_locations(ca_certs)
+IOError: [Errno 2] No such file or directory
+
+2016-03-23 11:54:23,781 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 11:54:23,912 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 11:54:26,623 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-23 11:54:27,088 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 11:54:27,115 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 11:54:27,235 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 11:54:33,958 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-03-23 12:42:47,491 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 12:42:47,543 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 12:42:48,130 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-23 12:42:48,413 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 12:42:48,416 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 12:42:48,496 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:42:53,000 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-03-23 12:43:21,684 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:43:22,345 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event
+2016-03-23 12:43:53,883 - softwarecenter.backend - WARNING - _on_trans_error: 'NotAuthorizedError(u"('system-bus-name', {'name':  ':1.174'}): org.debian.apt.install-packages.high-trust-repo",)' '<AptTransaction object at 0x7f497dff49b0 (aptdaemon+client+AptTransaction at 0x3d1c160)>' 'unity-webapps-qq-mail'
+2016-03-23 12:43:53,898 - softwarecenter.backend - ERROR - error in _on_trans_finished '错误: 您不能执行该操作
+您没有进行此操作的权限。
+
+org.freedesktop.PolicyKit.Error.NotAuthorized: ('system-bus-name', {'name': ':1.174'}): org.debian.apt.install-packages.high-trust-repo'
+2016-03-23 12:43:55,262 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:46:56,488 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:46:57,232 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event
+2016-03-23 12:46:57,305 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:46:58,631 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event
+2016-03-23 12:46:58,694 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:46:59,535 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:47:02,370 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 12:47:03,002 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event
+2016-03-23 13:20:40,971 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 13:20:41,795 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event
+2016-03-23 14:36:33,791 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 14:36:33,841 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 14:36:34,467 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-23 14:36:34,767 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 14:36:34,770 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 14:36:34,845 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 14:36:39,620 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-03-23 14:39:27,010 - softwarecenter.simplefiledownloader - WARNING - url changed from 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/678_large.png' to 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/5072_large.png'
+2016-03-23 14:39:28,715 - softwarecenter.simplefiledownloader - WARNING - url changed from 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/5072_large.png' to 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/678_large.png'
+2016-03-23 14:41:51,715 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 14:41:52,416 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event

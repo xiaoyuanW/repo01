@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/xywang/%E4%B8%8B%E8%BD%BD/sogoupinyin_2.0.0.0068_amd64.deb" added="2016-03-23T04:34:19Z" modified="2016-03-23T04:34:19Z" visited="2016-03-23T04:34:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-23T04:34:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/%E4%B8%8B%E8%BD%BD/wps-office_10.1.0.5503~a20p2_amd64.deb" added="2016-03-23T04:51:45Z" modified="2016-03-23T04:51:45Z" visited="2016-03-23T04:51:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-23T04:51:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/cb_workspace" added="2016-03-23T05:36:08Z" modified="2016-03-23T05:36:08Z" visited="2016-03-23T05:36:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="codeblocks" exec="&apos;codeblocks %u&apos;" modified="2016-03-23T05:36:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/cb_workspace/hello/hello.cbp" added="2016-03-23T05:36:15Z" modified="2016-03-23T06:19:38Z" visited="2016-03-23T05:36:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-codeblocks"/>
+        <bookmark:applications>
+          <bookmark:application name="codeblocks" exec="&apos;codeblocks %u&apos;" modified="2016-03-23T06:19:38Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/%E4%B8%8B%E8%BD%BD/codeblocks-10.05%E6%B1%89%E5%8C%96%E5%8C%85%EF%BC%88%E5%86%85%E5%90%AB%E6%B1%89%E5%8C%96%E6%96%B9%E6%B3%95%EF%BC%89.rar" added="2016-03-23T05:37:34Z" modified="2016-03-23T05:40:57Z" visited="2016-03-23T05:37:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-03-23T05:37:34Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-03-23T05:40:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/%E4%B8%8B%E8%BD%BD/codeblocks-10.05%E6%B1%89%E5%8C%96%E5%8C%85/%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.txt" added="2016-03-23T05:41:20Z" modified="2016-03-23T05:41:20Z" visited="2016-03-23T05:41:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-23T05:41:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/codeblocks/locale/codeblocks-10.05%E6%B1%89%E5%8C%96%E5%8C%85/%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.txt" added="2016-03-23T05:51:55Z" modified="2016-03-23T05:51:55Z" visited="2016-03-23T05:51:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-23T05:51:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/id_rsa.pub" added="2016-03-23T06:50:14Z" modified="2016-03-23T06:50:14Z" visited="2016-03-23T06:50:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-23T06:50:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/xywang/.ssh/id_rsa.pub" added="2016-03-23T06:55:32Z" modified="2016-03-23T06:55:32Z" visited="2016-03-23T06:55:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-03-23T06:55:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

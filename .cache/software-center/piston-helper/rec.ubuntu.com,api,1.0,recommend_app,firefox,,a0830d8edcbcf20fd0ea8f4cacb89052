@@ -1,0 +1,458 @@
+status: 200
+content-length: 10521
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/firefox/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Wed, 23 Mar 2016 06:41:55 GMT
+server: Apache
+last-modified: Wed, 23 Mar 2016 06:36:55 GMT
+etag: "9712001831c0f95ae4209ce44dd51b89"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 23 Mar 2016 06:36:55 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "3c8ab919a4581e994223cf166db43e7b", 
+    "data": [
+        {
+            "package_name": "xul-ext-ubufox", 
+            "similarity": 43.2044
+        }, 
+        {
+            "package_name": "software-center", 
+            "similarity": 27.8011
+        }, 
+        {
+            "package_name": "software-properties-gtk", 
+            "similarity": 27.4209
+        }, 
+        {
+            "package_name": "update-manager", 
+            "similarity": 26.2032
+        }, 
+        {
+            "package_name": "gucharmap", 
+            "similarity": 26.0356
+        }, 
+        {
+            "package_name": "yelp", 
+            "similarity": 25.9711
+        }, 
+        {
+            "package_name": "file-roller", 
+            "similarity": 25.6494
+        }, 
+        {
+            "package_name": "xterm", 
+            "similarity": 25.4649
+        }, 
+        {
+            "package_name": "system-config-printer-gnome", 
+            "similarity": 25.3252
+        }, 
+        {
+            "package_name": "gcalctool", 
+            "similarity": 25.1598
+        }, 
+        {
+            "package_name": "network-manager-gnome", 
+            "similarity": 24.985
+        }, 
+        {
+            "package_name": "language-selector-gnome", 
+            "similarity": 24.49
+        }, 
+        {
+            "package_name": "ibus", 
+            "similarity": 23.2549
+        }, 
+        {
+            "package_name": "evince", 
+            "similarity": 21.7072
+        }, 
+        {
+            "package_name": "simple-scan", 
+            "similarity": 21.058
+        }, 
+        {
+            "package_name": "usb-creator-gtk", 
+            "similarity": 19.5234
+        }, 
+        {
+            "package_name": "gedit", 
+            "similarity": 16.9272
+        }, 
+        {
+            "package_name": "apturl", 
+            "similarity": 16.3056
+        }, 
+        {
+            "package_name": "libreoffice-writer", 
+            "similarity": 16.2805
+        }, 
+        {
+            "package_name": "libreoffice-draw", 
+            "similarity": 15.7891
+        }, 
+        {
+            "package_name": "libreoffice-math", 
+            "similarity": 15.7622
+        }, 
+        {
+            "package_name": "compiz-core", 
+            "similarity": 15.6441
+        }, 
+        {
+            "package_name": "brasero", 
+            "similarity": 15.6037
+        }, 
+        {
+            "package_name": "onboard", 
+            "similarity": 15.5923
+        }, 
+        {
+            "package_name": "libreoffice-calc", 
+            "similarity": 15.5432
+        }, 
+        {
+            "package_name": "gnome-disk-utility", 
+            "similarity": 15.4402
+        }, 
+        {
+            "package_name": "libreoffice-impress", 
+            "similarity": 15.3159
+        }, 
+        {
+            "package_name": "gnome-media", 
+            "similarity": 14.9072
+        }, 
+        {
+            "package_name": "transmission-gtk", 
+            "similarity": 14.7872
+        }, 
+        {
+            "package_name": "gnome-terminal", 
+            "similarity": 14.7232
+        }, 
+        {
+            "package_name": "seahorse", 
+            "similarity": 14.5352
+        }, 
+        {
+            "package_name": "gnome-power-manager", 
+            "similarity": 14.3533
+        }, 
+        {
+            "package_name": "eog", 
+            "similarity": 14.0056
+        }, 
+        {
+            "package_name": "gnome-font-viewer", 
+            "similarity": 13.9424
+        }, 
+        {
+            "package_name": "shotwell", 
+            "similarity": 13.8081
+        }, 
+        {
+            "package_name": "gnome-bluetooth", 
+            "similarity": 13.2333
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "xdiagnose", 
+            "similarity": 13.0202
+        }, 
+        {
+            "package_name": "gnome-user-share", 
+            "similarity": 12.9634
+        }, 
+        {
+            "package_name": "vino", 
+            "similarity": 12.7649
+        }, 
+        {
+            "package_name": "gnome-sudoku", 
+            "similarity": 12.6851
+        }, 
+        {
+            "package_name": "thunderbird", 
+            "similarity": 12.5943
+        }, 
+        {
+            "package_name": "checkbox-qt", 
+            "similarity": 12.4583
+        }, 
+        {
+            "package_name": "deja-dup", 
+            "similarity": 12.2752
+        }, 
+        {
+            "package_name": "gnomine", 
+            "similarity": 12.113
+        }, 
+        {
+            "package_name": "totem", 
+            "similarity": 11.9179
+        }, 
+        {
+            "package_name": "aisleriot", 
+            "similarity": 11.0023
+        }, 
+        {
+            "package_name": "gnome-orca", 
+            "similarity": 10.3928
+        }, 
+        {
+            "package_name": "remmina-common", 
+            "similarity": 10.3613
+        }, 
+        {
+            "package_name": "landscape-client-ui-install", 
+            "similarity": 10.128
+        }, 
+        {
+            "package_name": "rhythmbox", 
+            "similarity": 9.6775
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "granatier"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "pornview"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "spim"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "atanks"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "adobereader-deu"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "notification-daemon"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "ttf-indic-fonts-core"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "linthesia"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "nautilus-cd-burner"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "abe"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "easycrypt"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "bovo"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "textedit.app"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "literki"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gnome-photo-printer"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "photoprint"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "tasks"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "xgnokii"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kradioripper"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wicd-gtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gfceu"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "epdfview"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "sugar-emulator-0.90"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "worldwind"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "amphetamine"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "apmd"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gnome-splashscreen-manager"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "mythnettv-gui"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "rar"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "flumotion"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wakeup"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "laptop-mode-tools"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "zgv"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "acm"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "tribaltrouble2"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "nautilus-gksu"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gftp-gtk"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "unrar"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "nautilus-wallpaper"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "burgerspace"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "lightspark"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "phatch"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "w3af"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "cairo-clock"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gtodo"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "blogtk"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "subtitleeditor"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "hipo"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pyscrabble"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "salasaga"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "kget"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "jlgui"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pychess"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "seamonkey-mailnews"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "nautilus-clamscan"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "ftp.app"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "ballz"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "nanny"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "default-jre"
+        }
+    ], 
+    "app": "firefox"
+}

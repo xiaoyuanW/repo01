@@ -1,0 +1,1 @@
+Could not get desktop file for "/org/ayatana/bamf/window/58720259" QDBusError("org.freedesktop.DBus.Error.UnknownMethod", "在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口")

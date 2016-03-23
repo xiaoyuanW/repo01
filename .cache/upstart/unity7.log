@@ -1,0 +1,131 @@
+2016-03-23 14:36:33,791 - softwarecenter.backend.zeitgeist_logger - WARNING - Support for Zeitgeist disabled
+2016-03-23 14:36:33,841 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-03-23 14:36:34,467 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-03-23 14:36:34,767 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-03-23 14:36:34,770 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-03-23 14:36:34,845 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+/usr/lib/python2.7/dist-packages/gi/overrides/GLib.py:584: Warning: Source ID 72 was not found when attempting to remove it
+  return super(MainContext, self).iteration(may_block)
+/usr/bin/software-center:184: Warning: Source ID 147 was not found when attempting to remove it
+  Gtk.main()
+2016-03-23 14:36:39,620 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+/usr/share/software-center/softwarecenter/ui/gtk3/widgets/searchentry.py:137: Warning: Source ID 522 was not found when attempting to remove it
+  GLib.source_remove(self._timeout_id)
+/usr/share/software-center/softwarecenter/ui/gtk3/widgets/searchentry.py:137: Warning: Source ID 576 was not found when attempting to remove it
+  GLib.source_remove(self._timeout_id)
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+/usr/share/software-center/softwarecenter/ui/gtk3/models/appstore2.py:401: Warning: Source ID 919 was not found when attempting to remove it
+  Gtk.main_iteration()
+/usr/share/software-center/softwarecenter/ui/gtk3/models/appstore2.py:401: Warning: Source ID 917 was not found when attempting to remove it
+  Gtk.main_iteration()
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+org.freedesktop.DBus.Error.Spawn.ChildExited: Launch helper exited with unknown return code 1
+No handlers could be found for logger "update-software-center-channels"
+/usr/share/software-center/softwarecenter/ui/gtk3/widgets/thumbnail.py:440: Warning: Source ID 8865 was not found when attempting to remove it
+  GLib.source_remove(sig)
+/usr/share/software-center/softwarecenter/ui/gtk3/widgets/thumbnail.py:440: Warning: Source ID 8878 was not found when attempting to remove it
+  GLib.source_remove(sig)
+/usr/bin/software-center:184: Warning: Source ID 6243 was not found when attempting to remove it
+  Gtk.main()
+/usr/bin/software-center:184: Warning: Source ID 6241 was not found when attempting to remove it
+  Gtk.main()
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+/usr/share/software-center/softwarecenter/backend/installbackend_impl/aptd.py:764: Warning: Source ID 22496 was not found when attempting to remove it
+  GLib.source_remove(self._progress_signal)
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+/usr/bin/software-center:184: Warning: Source ID 11763 was not found when attempting to remove it
+  Gtk.main()
+/usr/bin/software-center:184: Warning: Source ID 11761 was not found when attempting to remove it
+  Gtk.main()
+2016-03-23 14:39:27,010 - softwarecenter.simplefiledownloader - WARNING - url changed from 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/678_large.png' to 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/5072_large.png'
+2016-03-23 14:39:28,715 - softwarecenter.simplefiledownloader - WARNING - url changed from 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/5072_large.png' to 'http://screenshots.ubuntu.com/screenshots/p/pcmanfm/678_large.png'
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+Vector smash protection is enabled.
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+Use of uninitialized value $template in exists at /usr/share/perl5/Debconf/Template.pm line 86, <> line 6.
+Use of uninitialized value $item in exists at /usr/share/perl5/Debconf/DbDriver/Cache.pm line 39, <> line 6.
+Use of uninitialized value $item in exists at /usr/share/perl5/Debconf/DbDriver/Cache.pm line 39, <> line 6.
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.view 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:16 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch type: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch monitor: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch maximized state: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.window 的对象上没有 /org/ayatana/bamf/window/58720259 接口
+WARN  2016-03-23 14:41:24 unity <unknown>:0 Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 在路径 org.ayatana.bamf.application 的对象上没有 /org/ayatana/bamf/application/0x1bf51f0 接口
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: 权限不够
+/usr/share/software-center/softwarecenter/backend/installbackend_impl/aptd.py:764: Warning: Source ID 22572 was not found when attempting to remove it
+  GLib.source_remove(self._progress_signal)
+/usr/share/software-center/softwarecenter/ui/gtk3/models/pendingstore.py:64: Warning: Source ID 22573 was not found when attempting to remove it
+  GLib.source_remove(sig)
+/usr/share/software-center/softwarecenter/ui/gtk3/models/pendingstore.py:64: Warning: Source ID 22574 was not found when attempting to remove it
+  GLib.source_remove(sig)
+/usr/share/software-center/softwarecenter/ui/gtk3/models/pendingstore.py:64: Warning: Source ID 22575 was not found when attempting to remove it
+  GLib.source_remove(sig)
+/usr/share/software-center/softwarecenter/ui/gtk3/models/pendingstore.py:64: Warning: Source ID 22576 was not found when attempting to remove it
+  GLib.source_remove(sig)
+2016-03-23 14:41:51,715 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-03-23 14:41:52,416 - softwarecenter.backend.zeitgeist_logger - WARNING - No zeitgeist support, impossible to log event
+
+(software-center:27038): Gtk-WARNING **: unmatched gtk_style_context_save/restore() detected while validating context for softwarecenter+ui+gtk3+widgets+apptreeview+AppTreeView 0x27c4c00
